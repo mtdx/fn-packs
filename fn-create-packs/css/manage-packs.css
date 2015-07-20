@@ -1,0 +1,226 @@
+.MFContainer {
+    display: none;
+}
+
+#MFContainerPlaceholder {
+    width: 295px;
+    height: 310px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.open-pack {
+    background: #000;
+    min-height: 1000px;
+    position: relative;
+    color: #FFF;
+    background: url(../views/img/bgs/stadium.jpg) no-repeat;
+    background-size: cover;
+}
+
+.open-pack h1 {
+    color: #FFF;
+    margin: 20px 0 0;
+}
+
+.boxed-row .detailsLeft {
+    position: relative;
+}
+
+.boxed-row .cardsRight {
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.blackBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+
+.boxed-row {
+    position: relative;
+}
+
+.MFContainer {
+    position: fixed;
+    left: 50%;
+    margin-left: -155px;
+    top: 25%;
+    width: 295px;
+    height: 310px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1001;
+}
+
+.cardsRight .cardPlaceholder {
+    width: 169px;
+    height: 240px;
+    float: left;
+}
+
+.MFContainer .card {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+
+.card {
+    width: 169px;
+    height: 240px;
+    cursor: pointer;
+    z-index: 999;
+    /*position: absolute;*/
+    background: url(../views/img/cards/concept.png);
+}
+
+.card.toty {
+    background: url(../views/img/cards/toty.png);
+}
+
+.card.bronze {
+    background: url(../views/img/cards/bronze.png);
+}
+
+.card.rare_bronze {
+    background: url(../views/img/cards/bronze-rare.png);
+}
+
+.card.totw_bronze {
+    background: url(../views/img/cards/bronze-if.png);
+}
+
+.card.tots_bronze {
+    background: url(../views/img/cards/bronze-tots.png);
+}
+
+.card.gold {
+    background: url(../views/img/cards/gold.png);
+}
+
+.card.rare_gold {
+    background: url(../views/img/cards/gold-rare.png);
+}
+
+.card.totw_gold {
+    background: url(../views/img/cards/gold-if.png);
+}
+
+.card.tots_gold {
+    background: url(../views/img/cards/gold-tots.png);
+}
+
+.card.green {
+    background: url(../views/img/cards/green.png);
+}
+
+.card.legend {
+    background: url(../views/img/cards/legend.png);
+    color: #000;
+}
+
+.card.purple {
+    background: url(../views/img/cards/purple.png);
+}
+
+.card.silver {
+    background: url(../views/img/cards/silver.png);
+}
+
+.card.rare_silver {
+    background: url(../views/img/cards/silver-rare.png);
+}
+
+.card.totw_silver {
+    background: url(../views/img/cards/silver-if.png);
+}
+
+.card.tots_silver {
+    background: url(../views/img/cards/silver-tots.png);
+}
+
+/*
+.card.orange {
+    background: url(../views/img/cards/orange.png);
+}
+*/
+
+.card.motm {
+    background: url(../views/img/cards/orange.png);
+}
+
+.card.easports {
+    background: url(../views/img/cards/easports.png);
+}
+
+.card span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card span.commonName {
+    padding: 15px 10px 0;
+    width: 166px;
+    white-space: nowrap;
+}
+
+.card span.position,
+.card span.rating {
+    float: left;
+}
+
+.card span.rating {
+    margin-left: 18px;
+    margin-top: 1px;
+}
+
+.card span.position {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.card .upper {
+    margin-bottom: 26px;
+    float: left;
+}
+
+.card .upper .left {
+    width: 51px;
+    margin-left: 15px;
+    clear: left;
+    margin-top: 4px;
+}
+
+.card .upper .right {
+    margin-right: 10px;
+    width: 80px;
+}
+
+.card .lower {
+    clear: both;
+    margin: 0 24px;
+}
+
+.card .lower span {
+    margin: 0 0 10px;
+}
+
+#fireball {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fncp-open-pack .boxed-row .large-3 {
+    position: relative;
+}

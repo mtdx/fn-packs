@@ -1,0 +1,139 @@
+.admin-card-types label {
+    display: inline-block;
+    width: 100px;
+}
+
+.admin-card-types table.settings label {
+    width: 220px;
+}
+
+.admin-card-types table.settings input.small-text {
+    width: 100px;
+}
+
+.admin-card-steps label {
+    display: inline-block;
+    width: 150px;
+}
+
+#poststuff.fncp .postbox .inside.pack > h3,
+#poststuff.fncp .postbox .inside.pack > h3.collapse.closed {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #23282d;
+}
+
+#poststuff.fncp .postbox .inside.pack > h3:hover,
+#poststuff.fncp .postbox .inside.pack > h3.collapse,
+#poststuff.fncp .postbox .inside.pack div.collapse:hover {
+    color: #5c6a77;
+}
+
+#poststuff.fncp .postbox .inside.pack > h3.collapse.closed {
+    background: #fff;
+}
+
+#poststuff.fncp .postbox table tr.alternate {
+    background-color: #f9f9f9;
+}
+
+#poststuff.fncp .postbox .inside.pack {
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+}
+
+#poststuff.fncp .postbox .inside.pack .hide {
+    display: none;
+}
+
+#poststuff.fncp .postbox .inside.pack div.collapse::before {
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    padding: 8px 10px;
+    position: relative;
+    right: 12px;
+    text-decoration: none !important;
+    top: 0;
+    content: '\f142'
+}
+
+#poststuff.fncp .postbox .inside.pack div.collapse.closed::before {
+    content: '\f140';
+}
+
+#poststuff.fncp .postbox .inside.pack div.collapse {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+#poststuff.fncp .fncp-overall {
+    width: 100%;
+    text-align: center;
+    border: 0 none;
+    max-width: 600px;
+}
+
+#poststuff.fncp .fncp-overall td {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 1em 0;
+    font-size: 22px;
+    font-weight: bold;
+    width: 50%;
+}
+
+#poststuff.fncp .fncp-overall td .dashicons {
+    line-height: 26px;
+    font-size: 22px;
+}
+
+#poststuff.fncp .fncp-overall .blue1 {
+    background: #0073aa;
+}
+
+#poststuff.fncp .fncp-overall .blue2 {
+    background: #00a0d2;
+}
+
+#poststuff.fncp .fncp-overall .blue3 {
+    background: #00bff2;
+}
+
+#poststuff.fncp .fncp-overall .down {
+    color: #000;
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types form .done {
+    color: #006621;
+    float: left;
+    margin-top: -20px;
+    display: none;
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types form.done .done {
+    display: inline-block;
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types form.processing {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types input[type="text"].off {
+    background: #e6e6e6;
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types input[type="text"].on {
+    background: #fff;
+}
+
+#poststuff.fncp .postbox .inside.pack.admin-card-types input[type="text"]:focus,
+#poststuff.fncp .postbox .inside.pack.admin-card-types input[type="text"].off:focus {
+    background: #fff;
+}
