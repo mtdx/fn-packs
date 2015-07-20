@@ -19,7 +19,8 @@ class FNCP_Card
         'totw_bronze',
         'easports',
         'legend',
-        'green', // maybe not?
+        'green',
+        'pink',
         'basic' // not a real type, used when the low chance special doesn't pull through and we need a normal type
     );
     public $type;
@@ -193,6 +194,9 @@ class FNCP_Card
                 break;
             case 'tots_bronze':
                 $new_type = 'tots_bronze';
+                break;
+            case 'pink':
+                $new_type = 'pink';
                 break;
             case 'rare_gold':  // normal next
                 $new_type = 'gold';
