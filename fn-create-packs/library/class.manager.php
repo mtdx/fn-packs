@@ -38,6 +38,7 @@ class FNCP_Manager
         require FNCP_DIR_PATH . 'library/packs/class.motm_pack.php';
         require FNCP_DIR_PATH . 'library/packs/class.ninja_pack.php';
         require FNCP_DIR_PATH . 'library/packs/class.legend_pack.php';
+        require FNCP_DIR_PATH . 'library/packs/class.futties_pack.php';
         require FNCP_DIR_PATH . 'library/packs/class.packs_factory.php';
         $this->loader = new FNCP_Loader();
     }

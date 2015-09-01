@@ -180,6 +180,9 @@ class FNAC_User
             case 'legend':
                 $type = $types[9];
                 break;
+            case 'futties':
+                $type = $types[10];
+                break;
             default:
                 break;
         }

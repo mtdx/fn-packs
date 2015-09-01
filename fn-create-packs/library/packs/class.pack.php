@@ -13,6 +13,7 @@ abstract class FNCP_Pack
         'fncp_motm_pack' => 'Man of the Match Pack (%no basic, %sp special)',
         'fncp_ninja_pack' => 'Ninja Surprise Me Pack (%no basic, %sp special)',
         'fncp_legend_pack' => 'Legend Pack (%no basic, %sp special)',
+        'fncp_futties_pack' => 'Futties Pack (%no basic, %sp special)',
     );
     public $fullname;
     public $name;

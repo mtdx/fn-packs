@@ -128,6 +128,11 @@ class FNCP_Admin
         register_setting('fncp_legend_pack_probs', 'fncp_legend_pack_probs');
     }
 
+    public function save_futties_pack_probs()
+    {
+        register_setting('fncp_futties_pack_probs', 'fncp_futties_pack_probs');
+    }
+
     public function render_settings()
     {
         $PACKS = FNCP_Pack::$PACKS;
